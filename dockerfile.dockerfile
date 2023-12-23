@@ -5,7 +5,7 @@ FROM nginx:latest
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy your web application files to the default Nginx public HTML directory
-COPY ./your-web-app /usr/share/nginx/html
+COPY .home.html
 
 # Expose the port on which Nginx will run
 EXPOSE 80
